@@ -1,0 +1,37 @@
+body{
+    
+    /* background-color: #55ffe5; */
+    font-family: 'Lato', sans-serif; font-family: 'Roboto', sans-serif;
+    font-size: 14 px;
+   
+    
+    }
+    #form{
+        background-color: wheat;
+        width: 35%;
+        margin: 170px auto;
+        padding: 80px;
+        box-shadow: 10px 10px 5px rgb(82,11,77, green, blue);
+        border-radius: 20px;
+        color: #0a0eed;
+        
+    }
+
+
+    #button{
+        background: #1c00b5;
+        width: 70px;
+        border: none;
+        outline: none;
+        color: #fff;
+        height: 30px;
+        border-radius: 20px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 0px rgba(28, 0, 181, 0.3);
+    }
+    @media screen and (max-width:700px){
+        #form{
+            width: 65%;
+            padding: 40px;
+        }
+    }
